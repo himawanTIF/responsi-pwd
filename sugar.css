@@ -1,0 +1,66 @@
+body {
+    font-family: "roboto";
+}
+
+.wrapper {
+    width: 400px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    margin: 10% auto;
+    padding: 40px;
+}
+
+.wrapper h1 {
+    text-align: center;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 20px auto;
+    background: #fff;
+    overflow: hidden;
+    padding: 10px;
+}
+
+table tr td input {
+    padding: 5px;
+    border: solid #e1e1e1 1px;
+    border-radius: 3px;
+    font-size: 15pt;
+}
+
+input {
+    padding: 5px;
+    border: solid #e1e1e1 1px;
+    border-radius: 3px;
+    font-size: 15pt;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 7px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#foto {
+    margin-top: 2px;
+    width: 300px;
+}
